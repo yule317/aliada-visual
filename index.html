@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aliada Visual — Acompañamiento integral en salud visual</title>
+  <meta name="description" content="Coordinamos turnos, cirugías, controles, traslados y hotelería. Te acompañamos en todo tu proceso oftalmológico con calidez y precisión." />
+  <link rel="icon" type="image/png" href="./imagenes/logoaliadavisual.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+  <meta name="theme-color" content="#0f1220" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aliada Visual — Acompañamiento integral en salud visual" />
+  <meta property="og:description" content="Turnos, cirugías, controles, traslados y hotelería. Te acompañamos en cada paso." />
+  <meta property="og:image" content="imagenes/og-aliadavisual.jpg" />
+  <meta property="og:url" content="https://aliadavisual.netlify.app" />
+
+  <!-- AOS (opcional) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-container container">
+      <a href="#inicio" class="navbar-brand" aria-label="Ir al inicio">
+        <img src="./imagenes/logoaliadavisual.png" alt="Logo de Aliada Visual" class="brand-mark" height="44" width="44" />
+        <span class="brand-name">Aliada Visual</span>
+      </a>
+
+      <button class="navbar-toggle" aria-label="Abrir menú" aria-controls="menu" aria-expanded="false">☰</button>
+
+      <nav id="menu" class="navbar-links" aria-label="Menú principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#funciona">¿Cómo funciona?</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacto" class="btn btn--ghost">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO con carrusel -->
+  <section id="inicio" class="hero-carrusel" aria-label="Presentación">
+    <div class="carrusel-bg" aria-hidden="true">
+      <div class="fotos">
+        <img src="./imagenes/estudios.jpg" alt="" />
+        <img src="./imagenes/gafas.jpg" alt="" />
+        <img src="./imagenes/revision.jpg" alt="" />
+      </div>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="hero-content container" data-aos="fade-up" data-aos-duration="900">
+      <h1>Tu <span class="gold">aliada</span> en salud visual</h1>
+      <p class="slogan">Desde el primer turno hasta el alta médica: coordinación, traslados y hotelería sin enredos.</p>
+
+      <div class="hero-ctas">
+        <a
+          href="https://wa.me/5491150216487?text=Hola%20Aliada%20Visual%20👋%20Quiero%20coordinar%20un%20turno%20o%20hacer%20una%20consulta."
+          class="btn btn--wsp"
+          target="_blank" rel="noopener"
+          aria-label="Abrir WhatsApp para coordinar un turno"
+        >Gestionar mi turno</a>
+
+        <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+      </div>
+
+      <p class="mini">Respuesta en menos de 1 hora · Atención cálida · Red de clínicas aliadas</p>
+    </div>
+  </section>
+
+  <main>
+    <!-- SERVICIOS -->
+    <section id="servicios" class="section">
+      <div class="container">
+        <div class="section__head" data-aos="fade-up">
+          <h2>¿En qué te podemos ayudar?</h2>
+          <p class="muted">Coordinamos cada etapa para que tu única preocupación sea tu salud.</p>
+        </div>
+
+        <div class="servicios-grid">
+          <article class="servicio" data-aos="fade-up">
+            <div class="servicio-img servicio-turnos"></div>
+            <div class="servicio-body">
+              <h3>Gestión de turnos</h3>
+              <p>Reservamos con el especialista adecuado, sin filas ni llamadas eternas.</p>
+            </div>
+          </article>
+
+          <article class="servicio" data-aos="fade-up" data-aos-delay="100">
+            <div class="servicio-img servicio-cirugia"></div>
+            <div class="servicio-body">
+              <h3>Cirugías y controles</h3>
+              <p>Coordinamos estudios pre y post, y organizamos tu día de cirugía.</p>
+            </div>
+          </article>
+
+          <article class="servicio" data-aos="fade-up" data-aos-delay="200">
+            <div class="servicio-img servicio-traslados"></div>
+            <div class="servicio-body">
+              <h3>Traslados</h3>
+              <p>Te llevamos y traemos de la clínica: seguro, puntual y cómodo.</p>
+            </div>
+          </article>
+
+          <article class="servicio" data-aos="fade-up" data-aos-delay="300">
+            <div class="servicio-img servicio-hotel"></div>
+            <div class="servicio-body">
+              <h3>Hotelería & Remís</h3>
+              <p>¿Venís de lejos? Alojamiento y traslados resueltos, antes y después.</p>
+            </div>
+          </article>
+
+          <article class="servicio" data-aos="fade-up" data-aos-delay="400">
+            <div class="servicio-img servicio-acompanamiento"></div>
+            <div class="servicio-body">
+              <h3>Acompañamiento</h3>
+              <p>Estamos a tu lado en cada paso de tu tratamiento oftalmológico.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section id="funciona" class="section alt">
+      <div class="container">
+        <div class="section__head" data-aos="fade-up">
+          <h2>¿Cómo funciona Aliada Visual?</h2>
+          <p class="muted">Simple, claro y humano. Así trabajamos.</p>
+        </div>
+
+        <div class="pasos" data-aos="fade-up" data-aos-delay="100">
+          <div class="paso">
+            <span class="numero">1</span>
+            <h4>Contactanos</h4>
+            <p>Contanos qué necesitás. Te escuchamos sin compromiso.</p>
+          </div>
+          <div class="paso">
+            <span class="numero">2</span>
+            <h4>Gestionamos todo</h4>
+            <p>Turnos, cirugías, controles, traslados y hotelería.</p>
+          </div>
+          <div class="paso">
+            <span class="numero">3</span>
+            <h4>Listo</h4>
+            <p>Vos enfocáte en tu salud visual. Nosotros en lo demás.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section__head" data-aos="fade-up">
+          <h2>Preguntas frecuentes</h2>
+        </div>
+
+        <div class="faq" data-aos="fade-up" data-aos-delay="100">
+          <details>
+            <summary>¿Cuánto cuesta el servicio?</summary>
+            <p>Te asesoramos gratis y pasamos presupuesto previo. Sin sorpresas.</p>
+          </details>
+          <details>
+            <summary>¿Atienden por obra social?</summary>
+            <p>Coordinamos tanto por obra social como particular.</p>
+          </details>
+          <details>
+            <summary>¿Puedo pedir solo traslado u hotelería?</summary>
+            <p>Sí, podés contratar solo lo que necesitás.</p>
+          </details>
+          <details>
+            <summary>¿Puedo elegir médico o clínica?</summary>
+            <p>Por supuesto. Vos elegís y nosotros gestionamos.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container contacto">
+        <div class="contacto-copy" data-aos="fade-up">
+          <h2>¿Listx para empezar?</h2>
+          <p class="muted">Escribinos por WhatsApp o mail, o completá el formulario. Te respondemos rápido.</p>
+          <div class="contacto-info">
+            <a class="btn btn--wsp" target="_blank" rel="noopener"
+               href="https://wa.me/5491150216487?text=Hola%20Aliada%20Visual%20👋%20Quiero%20hacer%20una%20consulta.">WhatsApp</a>
+            <a class="btn btn--ghost" href="mailto:rojasyulenny08@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <form class="form" name="contacto" method="POST" data-netlify="true" data-aos="fade-up" data-aos-delay="100">
+          <input type="hidden" name="form-name" value="contacto" />
+          <label>Nombre
+            <input type="text" name="nombre" required autocomplete="name" />
+          </label>
+          <label>Email
+            <input type="email" name="email" required autocomplete="email" />
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" rows="5" required></textarea>
+          </label>
+          <button class="btn" type="submit">Enviar consulta</button>
+          <p class="form__hint">Formulario activo en Netlify automáticamente.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- TESTIMONIO -->
+    <section class="section alt">
+      <div class="container testimonio" data-aos="fade-up">
+        <blockquote>
+          <p>“Me ayudaron en todo: simple, seguro y humano. Gracias por acompañarme en cada paso.”</p>
+          <footer>— Laura, paciente de Aliada Visual</footer>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© <span id="year"></span> Aliada Visual — Todos los derechos reservados.</small>
+      <div class="redes">
+        <a href="#" title="Instagram">Instagram</a>
+        <a href="#" title="Facebook">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
